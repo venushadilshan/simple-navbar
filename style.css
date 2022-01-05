@@ -30,6 +30,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .navbar-links li {
@@ -39,9 +40,14 @@ body {
 
 }
 
-.search-box {
-    padding: 1rem;
-    display: flex;
+input{
+   
+    
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
 }
 
 .navbar-links li a {
@@ -70,6 +76,7 @@ body {
 
 }
 
+
 .toggle-btn .bar {
     height: 3px;
     width: 100%;
@@ -93,6 +100,12 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+    
+    input{
+
+        width: 100%;
+        margin:0.7rem
+    }
 
     .navbar-links ul 
     {
@@ -103,6 +116,7 @@ body {
     .navbar-links li
     {
         text-align: center;
+        
     }
 
     .navbar-links li a 
