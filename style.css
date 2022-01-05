@@ -116,7 +116,7 @@ input{
     .navbar-links li
     {
         text-align: center;
-        
+        width: 100%;
     }
 
     .navbar-links li a 
