@@ -5,6 +5,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
 }
 
 .navbar {
@@ -13,6 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(26, 26, 26);
+    transition:  all 0.5s;
 
 }
 
